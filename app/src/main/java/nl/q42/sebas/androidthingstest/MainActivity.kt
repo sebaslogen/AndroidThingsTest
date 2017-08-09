@@ -58,7 +58,7 @@ class MainActivity : Activity() {
             Log.e(TAG, "Error displaying temperature", e)
         }
 
-        handler.postDelayed({ runAndReschedule() }, 100)
+        handler.postDelayed({ runAndReschedule() }, 200)
     }
 
     override fun onDestroy() {
