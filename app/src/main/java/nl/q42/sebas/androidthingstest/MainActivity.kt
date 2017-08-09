@@ -35,7 +35,6 @@ class MainActivity : Activity() {
 
     private fun initializeLeds() {
         redLed = RainbowHat.openLedRed()
-        redLed?.setDirection(Gpio.DIRECTION_OUT_INITIALLY_LOW)
     }
 
     private fun initializeSensor() {
